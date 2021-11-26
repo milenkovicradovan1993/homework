@@ -1,6 +1,6 @@
 package radovan;
 
-import java.time.temporal.ChronoUnit;
+
 
 public class Main {
 
@@ -18,6 +18,7 @@ public class Main {
 		t1.end();
 		System.out.println(Math.sqrt(x));
 		t1.printDuration();
+		t1.run();
 		
 	    t2.start();
 		for (int i = 0; i < 100; i++) {
@@ -27,6 +28,7 @@ public class Main {
 		t2.end(); 
 	    System.out.println(Math.pow(x,2));
 		t2.printDuration();
+		t2.run();
 
 	}
 
